@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Prekės - Inifix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/WebLogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="apiemus.html">APIE MUS</a></li>
+                <li><a href="paslaugos.html">PASLAUGOS</a></li>
+                <li><a href="prekes.html">PREKĖS</a></li>
+                <li><a href="kontaktai.html">KONTAKTAI</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" style="color: black" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+<!------Footer------>
+<section class="footer">
+    <h4>Socialinių tinklų nuorodos</h4>
+    <p>Mus taip pat galite rasti ir susisiekti naudojant šiuos socialinius tinklus</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <p1><i class="fa fa-copyright"></i> Inifix</p1>
+</section>
+    
+<!------JavaScript for Toggle Menu------>
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>    
+
+
+</body>    
+</html>
