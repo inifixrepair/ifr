@@ -110,6 +110,8 @@ nav .fa{
 .paslaugos{
     width: 100%;
     color: black;
+    position: absolute;
+    top: 30%;
     text-align: center;
     font-weight: 500;
     font-size: 12px;
