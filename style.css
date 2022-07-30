@@ -108,9 +108,7 @@ nav .fa{
 
 /*------Paslaugos------*/
 .paslaugos{
-    width: 98%;
-    position: absolute;
-    top: 30%;
+    width: 100%;
     color: black;
     text-align: center;
     font-weight: 500;
@@ -144,19 +142,18 @@ td{
 .kontaktai{
     width: 100%;
     color: black;
-    position: absolute;
-    top: 30%;
+    padding-top: 60px;
     text-align: center;
 }
 .kontaktai p{
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 16px;
     color: black;
     text-align: center;
     font-weight: 500;
 }
 .icons2{
-    margin-top: 230px;
+    margin-top: 50px;
     text-align: center;
 }
 .icons2 .fa{
@@ -175,12 +172,16 @@ td{
     color: #008BD5;
     transition: 0.6s;
 }
+.form{
+    text-align: center;
+    margin-top: 20px;
+}
 
 /*-----Footer------*/
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    margin-bottom: 30px;
 }
 .footer h4{
     margin-bottom: 25px;
