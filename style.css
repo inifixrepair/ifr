@@ -101,20 +101,24 @@ nav .fa{
     color: black;
     text-align: center;
     font-weight: 500;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 330px;
+    padding-right: 330px;
 }
 
 
 /*------Paslaugos------*/
 .paslaugos{
-    width: 100%;
+    width: 98%;
     position: absolute;
     top: 30%;
     color: black;
     text-align: center;
     font-weight: 500;
     font-size: 12px;
+}
+.paslaugos p{
+    font-size: 16px;
+    padding-top: 2%;
 }
 table{
     
@@ -145,15 +149,14 @@ td{
     text-align: center;
 }
 .kontaktai p{
-    padding-top: 50px;
-    margin: 10px 0 40px;
+    padding-top: 40px;
     font-size: 16px;
     color: black;
     text-align: center;
     font-weight: 500;
 }
 .icons2{
-    margin-top: 280px;
+    margin-top: 230px;
     text-align: center;
 }
 .icons2 .fa{
@@ -166,6 +169,7 @@ td{
     padding-top: 50px;
     color: black;
     padding: 30px;
+    text-align: center;
 }
 .icons2 .fa:hover{
     color: #008BD5;
@@ -176,11 +180,13 @@ td{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 .footer h4{
     margin-bottom: 25px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
     font-weight: 600;
 }
 .footer p{
