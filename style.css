@@ -51,7 +51,7 @@ nav img{
     color: black;
     position: absolute;
     top: 50%;
-    left: 49.5%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -73,7 +73,6 @@ nav img{
     background: #0073D9;
     padding: 12px 34px;
     font-size: 15px;
-    position: relative;
     cursor: pointer;
 }
 .hero-btn:hover{
@@ -110,8 +109,8 @@ nav .fa{
 .paslaugos{
     width: 100%;
     color: black;
-    position: absolute;
-    top: 30%;
+    position: relative;
+    bottom: 650px;
     text-align: center;
     font-weight: 500;
     font-size: 12px;
@@ -121,12 +120,12 @@ nav .fa{
     padding-top: 2%;
 }
 table{
-    
-    position: absolute;
-    width: 1000px;
-    top: 40%;
-    left: 22.2%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
+    position: relative;
+    bottom: 600px;
 }
 th{
     border: 1px solid #0073D9;
@@ -142,13 +141,12 @@ td{
 
 /*------Kontaktai------*/
 .kontaktai{
-    width: 100%;
     color: black;
     padding-top: 60px;
     text-align: center;
 }
 .kontaktai p{
-    padding-top: 30px;
+    margin-top: 30px;
     font-size: 16px;
     color: black;
     text-align: center;
@@ -159,9 +157,11 @@ td{
     text-align: center;
 }
 .icons2 .fa{
+    text-align: center;
     color: #0073D9;
     font-size: 40px;
     cursor: pointer;
+    margin: 0 auto;
 }
 .icons2 p{
     font-size: 20px;
@@ -183,29 +183,31 @@ td{
 
 /*-----Footer------*/
 .footer{
-    width: 100%;
+    position: relative;
+    left: 10px;
     text-align: center;
     margin-bottom: 30px;
 }
 .footer h4{
     margin-bottom: 25px;
     margin-top: 40px;
-    margin-right: auto;
-    margin-left: auto;
     font-weight: 600;
+    display: inline-block;
 }
 .footer p{
     font-weight: 400;
+    margin: 0 auto;
 }
 .icons .fa{
     color: #0073D9;
     margin: 0 13px;
     cursor: pointer;
-    padding: 18px 0;
+    padding: 18px;
 }
 .footer p1{
     font-weight: 300;
     color: grey;
+    display: inline-block;
 }
 
 /*------Custom Scrollbar------*/
