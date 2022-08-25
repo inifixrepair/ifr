@@ -272,6 +272,21 @@ td{
     .form{
         width: 100%;
     }
+    .paslaugos{
+        padding-top: 40px;
+    }
+    .paslaugos p{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text-box h1{
+        padding-top: 80px;
+    }
+    .text-box p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 
 
