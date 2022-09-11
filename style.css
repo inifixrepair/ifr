@@ -111,7 +111,7 @@ nav .fa{
 .paslaugos{
     width: 100%;
     color: black;
-    position: relative;
+    position: absolute;
     bottom: 650px;
     text-align: center;
     font-weight: 500;
@@ -126,7 +126,7 @@ table{
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    position: relative;
+    position: absolute;
     bottom: 600px;
 }
 th{
