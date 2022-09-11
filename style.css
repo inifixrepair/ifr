@@ -109,7 +109,6 @@ nav .fa{
 
 /*------Paslaugos------*/
 .paslaugos{
-    padding-top: 50px;
     width: 100%;
     color: black;
     position: fixed;
@@ -295,7 +294,7 @@ td{
     width: 28px;
     margin-left: 20px;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 700px){
     .text-box h1{
         font-size: 20x;
     }
