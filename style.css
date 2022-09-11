@@ -340,13 +340,20 @@ td{
         width: 100%;
     }
     .paslaugos{
-        padding-top: 80px;
-        margin-top: 40px;
+        padding-top: 40px;
     }
     .paslaugos p{
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    table{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        position: relative;
+        bottom: 600px;
     }
     .text-box h1{
         padding-top: 80px;
@@ -356,3 +363,15 @@ td{
         padding-right: 20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
