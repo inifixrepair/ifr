@@ -112,7 +112,7 @@ nav .fa{
     width: 100%;
     color: black;
     position: relative;
-    bottom: 650px;
+    bottom: auto;
     text-align: center;
     font-weight: 500;
     font-size: 12px;
@@ -127,7 +127,7 @@ table{
     margin-right: auto;
     border-collapse: collapse;
     position: relative;
-    bottom: 500px;
+    bottom: auto;
 }
 th{
     border: 1px solid #0073D9;
