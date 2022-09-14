@@ -127,7 +127,7 @@ table{
     margin-right: auto;
     border-collapse: collapse;
     position: relative;
-    bottom: auto;
+    bottom: 600px;
 }
 th{
     border: 1px solid #0073D9;
@@ -340,10 +340,10 @@ td{
         width: 100%;
     }
     .paslaugos{
-        padding-top: 40px;
+        padding-top: 80px;
     }
     .paslaugos p{
-        padding-top: 20px;
+        padding-top: 50px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -356,7 +356,7 @@ td{
         bottom: 600px;
     }
     .text-box h1{
-        padding-top: 80px;
+        padding-top: 600px;
     }
     .text-box p{
         padding-left: 20px;
