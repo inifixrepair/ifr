@@ -294,7 +294,7 @@ td{
     width: 28px;
     margin-left: 20px;
 }
-@media only screen and (max-width: 700px){
+@media (max-width: 700px){
     .text-box h1{
         font-size: 20x;
     }
