@@ -109,17 +109,19 @@ nav .fa{
 
 /*------Paslaugos------*/
 .paslaugos{
+    top: 30%;
     width: 100%;
     color: black;
-    position: relative;
+    position: absolute;
     bottom: 650px;
     text-align: center;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 16px;
 }
 .paslaugos p{
     font-size: 16px;
     padding-top: 2%;
+    font-weight: 400;
 }
 table{
     max-width: 1000px;
@@ -127,7 +129,7 @@ table{
     margin-right: auto;
     border-collapse: collapse;
     position: relative;
-    bottom: 600px;
+    bottom: 430px;  
 }
 th{
     border: 1px solid #0073D9;
@@ -294,7 +296,7 @@ td{
     width: 28px;
     margin-left: 20px;
 }
-@media (max-width: 480px){
+@media only screen and (max-device-width: 480px), only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5){
     .text-box h1{
         font-size: 20x;
     }
@@ -339,8 +341,11 @@ td{
     .form{
         width: 100%;
     }
+    .ppaslaugos{
+        margin-top: 300px;
+    }
     .paslaugos{
-        padding-top: 40px;
+        padding-top: 30px;
     }
     .paslaugos p{
         padding-top: 20px;
@@ -353,7 +358,7 @@ td{
         margin-right: auto;
         border-collapse: collapse;
         position: relative;
-        bottom: 600px;
+        bottom: 650px;
     }
     .text-box h1{
         padding-top: 80px;
