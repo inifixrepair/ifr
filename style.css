@@ -89,23 +89,21 @@ nav .fa{
 /*------Apie Mus------*/
 .text-box2{
     width: 100%;
-    position: absolute;
-    top: 30%;
     color: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 .text-box2 p{
-    position: absolute;
+    position: inherit;
     padding-top: 50px;
-    margin: 10px 0 40px;
     font-size: 19px;
     color: black;
     text-align: center;
     font-weight: 500;
-    padding-left: 330px;
-    padding-right: 330px;
 }
-
 
 /*------Paslaugos------*/
 .paslaugos{
@@ -113,7 +111,7 @@ nav .fa{
     width: 100%;
     color: black;
     position: absolute;
-    bottom: 750px;
+    bottom: 700px;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -124,7 +122,7 @@ nav .fa{
     font-weight: 400;
 }
 table{
-    max-width: 1000px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
@@ -329,14 +327,18 @@ td{
     .nav-links ul li a{
         color: white;
     }
+    .text-box2{
+        position: absolute;
+        top: 40%;
+        color: black;
+        text-align: center;
+
+    }
     .text-box2 p{
-        padding-top: 50px;
-        margin: 10px 0 40px;
-        font-size: 16px;
+        font-size: 17px;
+        color: black;
+        text-align: center;
         font-weight: 500;
-        padding-left: 20px;
-        padding-right: 150px;
-        width: 90%;
     }
     .form{
         width: 100%;
