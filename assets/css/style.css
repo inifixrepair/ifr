@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --color-body: white;
+    --color-heading: rgb(220, 220, 220);
+    --color-base: #0073D9;
+    --color-base2: #008BD5;
+    --color-brand: black;
+    --color-brand2: #0073D9;
+    --sidebar-width: 220px;
+    --font-base: "Roboto"
+}
+
+body {
+    background-color: var(--color-body);
+    color: var(--color-base);
+    font-family: var(--font-base), sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: black;
+    font-weight: 700;
+}
+
+p {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-brand);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+}
+
+.text-brand {
+    color:  var(--color-brand2);
+}
+
+.bg-base {
+    background-color: var(--color-heading);
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(0, 116, 217, 0.3)
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: var(--color-base);
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+@media (min-width :992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidebar-width);
+        background: linear-gradient(rgba(0, 116, 217, 0.85), rgba(0, 138, 213, 0.85)), url(../images/sidebar-img.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 5px solid var(--color-body);
+    }
+
+    /* Content */
+    #content-wrapper {
+        padding-left: var(--sidebar-width);
+    }
+}
+
+/* BTN */
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-brand {
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: var(--color-body);
+}
+
+.btn-brand:hover, .btn-brand:focus {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    border-color: var(--color-base2);
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-base);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s ;
+}
+
+.link-custom:hover {
+    color: var(--color-base);
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+/* Card */
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+
+.overlay {
+   opacity: 0;
+   color: black;
+}
+
+.card-custom:hover .card-custom-image p {
+    opacity: 1;
+}
+
+/* Kontaktai */
+#contact .form-control {
+    background-color: var(--color-heading);
+    border-color: var(--color-heading);
+    color: var(--color-base);
+}
+
+#contact .form-control:focus {
+    border-color: var(--color-base);
+    box-shadow: none;
+}
+
+#contact .form-control::placeholder {
+    color: var(--color-base);
+}
+
+#contact input.form-control {
+    height: 44px;
+}
+
+/* Icons */
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-heading);
+    border-radius: 100px;
+    font-size: 24px;
+}
+.social-links a:hover {
+    background-color: var(--color-base);
+    color: var(--color-body);
+}
+
+.las {
+    color: #0073D9;
+}
+
+/*------Custom Scrollbar------*/
+::-webkit-scrollbar{
+    width: 2em;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--color-base);
+    border: 11px solid #fff;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var(--color-base2);
+}
